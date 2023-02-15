@@ -1,0 +1,20 @@
+.home-row-search{
+    background-color: rgb(200, 202, 204);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.product-search{
+    background-color: white;
+    display: flex;
+    flex:0.5;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 30px;
+    border: 1.5px solid black;
+    box-shadow: 4px 6px 6px rgb(36, 35, 35);
+    margin: 0 8px
+}

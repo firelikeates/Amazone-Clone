@@ -1,0 +1,115 @@
+header{
+    display: block;
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    overflow-y: hidden;
+    min-width: 1200px;
+}
+.container{
+    display: flex;
+    align-items:center ;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.form-header{
+    display: flex;
+    flex:1;
+}
+
+.img-amazone-header{
+    width: 120px;
+    margin: 0 20px;
+    margin-top: 4.3px;
+    object-fit: contain;
+}
+.header-search-part{
+    display: flex;
+    flex:1;
+    padding: 10px;
+}
+input{
+    padding: 16px 16px;
+    border: none;
+    outline: none;
+    appearance: none;
+    user-select: none;
+    border-radius: 5px 0 0px 5px;
+    display: block;
+    width: 100%;
+    height: 42px;
+    font-size: 18px;
+}
+.fa.fa-search{
+    background-color: rgb(235, 187, 54);
+    color: #000;
+    height: 42px !important;
+    width: 42px;
+    padding: 12px 13px;
+}
+.fa.fa-search:hover{
+    background-color: rgb(226, 230, 22);
+
+}
+.header-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-links span{
+    color: #FFF;
+}
+.header-links span:nth-child(1){
+    font-size: 13px;
+    font-weight: 500;
+}
+.header-links span:nth-child(2){
+    font-size: 17px;
+    font-weight: 700;
+}
+.header-links span:nth-child(2):hover{
+    color: rgb(235, 187, 54);
+}
+.linkgroup-one{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 10px;
+}
+.linkgroup-two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 10px;
+}
+.linkgroup-three{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 0 10px;
+}
+.market-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color: #FFF;
+    background-color: #000;
+    font-size: 20px;
+}
+.market-part i:hover{
+    color: rgb(230, 124, 48);
+}
+.market-part div{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}

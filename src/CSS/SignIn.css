@@ -1,0 +1,168 @@
+.signin-container{
+    min-height: 100vh;
+    width: 100%;
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-top-a-signin{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.form-group-signin{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px;
+    border: 1.5px solid black;
+}
+.signin-img-top{
+    width: 160px;
+    height: 55px;
+    background-color: white;
+
+}
+.form-group-signin h1{
+    margin-bottom: 12px;
+    text-align: center;
+}
+.form-group-signin h5{
+    font-size: 21px;
+    margin-bottom: 4px;
+}
+#emailsigninid,#passwordsigninid{
+    padding: 20px 12px;
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgba(184, 184, 184,0.25);
+}
+.form-group-signin form div{
+    margin-bottom: 10px;
+}
+.signin-register-btn{
+    width: 100%;
+    padding: 8px 16px;
+    text-align: center;
+    justify-self: center;
+    background-color: rgb(235, 187, 54);
+    border: none;
+    outline: none;
+    appearance: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight:500;
+    margin: 8px 0;
+}
+.signin-register-btn:hover{
+    background-color:rgb(240, 160, 12);
+}
+.form-group-signin p{
+    margin: 12px 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+.form-group-signin p a:hover{
+    text-decoration: underline;
+}
+.line-group-signin{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 547.07px;
+    margin-top: 24px;
+    padding-left: 24px;
+}
+.line-group-signin .first-line-signin{
+    width: 36%;
+    background-color: rgba(128,128,128,0.8);
+    height: 3px;
+    margin-top: 2px;
+}
+.line-group-signin p{
+    font-size: 14px;
+    color: rgb(87, 87, 87);
+    margin: 0 8px;
+    margin-left: 10px;
+}
+.line-group-signin .second-line-signin{
+    width: 36%;
+    background-color: rgba(128,128,128,0.8);
+    height: 3px;
+    margin-top: 2px;
+}
+.signin-create-btn{
+    width: 100%;
+    max-width: calc(547.07px - 3%);
+    margin-top: 32px;
+    padding: 12px 20px;
+    text-align: center;
+    outline: none;
+    user-select: none;
+    cursor: pointer;
+    appearance: none;
+    border: 1px solid black;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+}
+.signin-create-btn:hover{
+    background-color:rgb(240, 160, 12);
+}
+
+.signin-footer{
+    margin-top: 50px;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 100%;
+    background-color: rgba(240, 240, 240, 0.6);
+    height: 120px;
+    padding: 24px;
+    overflow-y: hidden;
+}
+.top-part-footer-signin{
+    display: flex;
+    width: 50%;
+    margin-left: 21%;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-around;
+    overflow-y: hidden;
+
+}
+
+.top-part-footer-signin a{
+    text-decoration: none;
+    color: rgb(16, 96, 161);
+    font-size: 18px;
+}
+.top-part-footer-signin a:hover{
+    text-decoration: underline;
+    color: rgb(230, 124, 48);
+}
+
+.bottom-part-footer-signin{
+    padding: 8px;
+    margin: 8px 0;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    overflow-y: hidden;
+}
+
+.form-control-is-invalid{
+    border: 2px solid red;    
+}
+.invalid-feedback{
+    color: rgb(211, 11, 11);
+    font-size: 15px;
+    font-weight: 400;
+}
+.form-control-is-valid{
+    border: 1px solid green;
+}

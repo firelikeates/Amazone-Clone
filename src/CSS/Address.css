@@ -1,0 +1,77 @@
+.set_address-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 150px;
+}
+
+
+.form-address{
+    width: 95%;
+    height: auto;
+    border: 1px solid black;
+    padding: 16px 32px;
+    margin-top: 12px;
+}
+.form-address h1{
+    font-size: 42px;
+    color: black;
+    font-weight: 750;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 24px;
+}
+.form-address label{
+    position: relative;
+    bottom: 4px;
+    font-size: x-large;
+    color: black;
+    font-weight: 600;
+}
+.form-address .form-control{
+    position: relative;
+    margin-bottom: 16px;
+    outline: none;
+    background-color: rgb(224, 226, 228);
+    appearance: none;
+    user-select: none;
+    border: 0.5px solid black;
+    border-radius: 0;
+    top: 8px;
+    
+}
+.form-address div{
+    margin-bottom: 16px;
+}
+.btn-use-this-address{
+    margin: 8px 0;
+    padding: 12px 16px;
+    outline: none;
+    appearance: none;
+    user-select: none;
+    cursor: pointer;
+    background-color: #FFD814;
+    border-color: #FCD200;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn-use-this-address:hover{
+    background-color: #ebfc00;
+}
+datalist{
+    width: 100%;
+    height: 30px;
+}
+.form-control-select{
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: 42px;
+    background-color: rgb(224, 226, 228);
+    border: 1px solid black;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 550;
+}
