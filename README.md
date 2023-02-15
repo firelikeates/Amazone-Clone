@@ -35,20 +35,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-Lessons that i learned while i was building this application
+###Lessons that i learned while i was building this application
 This is my first big application in my life. I have been coding for 3 years and i learned lots of things which are going to be heplful in the future. Also it made my self-confident push to another level.
 
-#Techs
+###Techs
 *Languages: React, Redux, HTML, CSS, Firebase
 
 *Host: Node, Express
 
-#Questions
+###Questions
 -How long did application take
  3 weeks
 
 -How many hours did you work on this project in a day
  -4 hours
 
-#imple Information
+###simple Information
 This is not a responsive application
