@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import Store from './Store/Store';
 import { realtimedatabase, firebase } from './Firebase/FirebaseConfig';
 import { add_item_to_basket, set_orders } from './Action/ProductAction';
+import App2 from './App2';
 
 
 firebase.auth().onAuthStateChanged(function (user) {
@@ -32,6 +33,14 @@ firebase.auth().onAuthStateChanged(function (user) {
         </BrowserRouter>,
         document.getElementById('root'))
     })
-  } else { }
+  }else {
+    ReactDOM.render(
+      <BrowserRouter>
+        <Provider store={Store}>
+          <App2 />
+        </Provider>
+      </BrowserRouter>,
+      document.getElementById('root'))
+   }
 })
 
